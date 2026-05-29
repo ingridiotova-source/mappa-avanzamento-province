@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mappa avanzamento lavorazioni</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <h1>Mappa avanzamento lavorazioni</h1>
+      <p>Colorazione automatica delle aree in base allo stato indicato nel Google Sheet.</p>
+    </div>
+    <div class="header-actions">
+      <button id="refreshBtn" type="button">Aggiorna dati</button>
+    </div>
+  </header>
+
+  <section class="controls">
+    <label for="statusFilter">Filtra per stato</label>
+    <select id="statusFilter">
+      <option value="">Tutti gli stati</option>
+    </select>
+    <label for="searchBox">Cerca area</label>
+    <input id="searchBox" type="search" placeholder="es. Parma, Toscana, produzione..." />
+    <span id="lastUpdated" class="last-updated"></span>
+  </section>
+
+  <section id="summary" class="summary"></section>
+
+  <section class="legend" aria-label="Legenda stati">
+    <div><span class="box" style="background:#E5E5E5"></span>Non contattato</div>
+    <div><span class="box" style="background:#8ECAE6"></span>Prima call fissata</div>
+    <div><span class="box" style="background:#FFD166"></span>In corso</div>
+    <div><span class="box" style="background:#F77F00"></span>Produzione fissata</div>
+    <div><span class="box" style="background:#90BE6D"></span>Produzione conclusa</div>
+    <div><span class="box" style="background:#9B5DE5"></span>Montaggio in corso</div>
+    <div><span class="box" style="background:#2D6A4F"></span>Lavorazione ultimata</div>
+  </section>
+
+  <main>
+    <div id="message" class="message"></div>
+    <div id="map-container" aria-label="Mappa Italia"></div>
+  </main>
+
+  <div id="tooltip" role="tooltip"></div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

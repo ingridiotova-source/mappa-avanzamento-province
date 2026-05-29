@@ -1,0 +1,16 @@
+ISTRUZIONI RAPIDE
+
+1. Apri il file Excel MAPPA_PROVINCE_STATO_LAVORAZIONI.xlsx.
+2. Caricalo su Google Drive.
+3. Aprilo con Google Sheets.
+4. Modifica solo la colonna stato del foglio MAPPA_PROVINCE.
+5. Vai su File > Condividi > Pubblica sul web.
+6. Scegli il singolo foglio MAPPA_PROVINCE.
+7. Scegli formato CSV.
+8. Pubblica e copia il link generato.
+9. Apri il file config.js di questa cartella.
+10. Incolla il link tra le virgolette in CSV_URL.
+11. Carica questa cartella su Netlify con deploy manuale.
+12. Condividi il link Netlify: gli altri vedono la mappa, tu modifichi lo stato da Google Sheets.
+
+Nota: se CSV_URL resta vuoto, la pagina usa il file locale mappa_italia_aree.csv, utile solo come demo.

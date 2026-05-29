@@ -1,0 +1,112 @@
+area_key,regione,provincia_area,stato
+chieti,Abruzzo,Chieti,Non contattato
+l_aquila,Abruzzo,L'Aquila,Non contattato
+pescara,Abruzzo,Pescara,Non contattato
+teramo,Abruzzo,Teramo,Non contattato
+matera,Basilicata,Matera,Non contattato
+potenza,Basilicata,Potenza,Non contattato
+catanzaro,Calabria,Catanzaro,Non contattato
+cosenza,Calabria,Cosenza,Non contattato
+crotone,Calabria,Crotone,Non contattato
+reggio_calabria,Calabria,Reggio Calabria,Non contattato
+vibo_valentia,Calabria,Vibo Valentia,Non contattato
+avellino,Campania,Avellino,Non contattato
+benevento,Campania,Benevento,Non contattato
+caserta,Campania,Caserta,Non contattato
+napoli,Campania,Napoli,Non contattato
+salerno,Campania,Salerno,Non contattato
+bologna,Emilia-Romagna,Bologna,Non contattato
+ferrara,Emilia-Romagna,Ferrara,Non contattato
+forli_cesena,Emilia-Romagna,Forlì-Cesena,Non contattato
+modena,Emilia-Romagna,Modena,Non contattato
+parma,Emilia-Romagna,Parma,Non contattato
+piacenza,Emilia-Romagna,Piacenza,Non contattato
+ravenna,Emilia-Romagna,Ravenna,Non contattato
+reggio_emilia,Emilia-Romagna,Reggio Emilia,Non contattato
+rimini,Emilia-Romagna,Rimini,Non contattato
+gorizia,Friuli-Venezia Giulia,Gorizia,Non contattato
+pordenone,Friuli-Venezia Giulia,Pordenone,Non contattato
+trieste,Friuli-Venezia Giulia,Trieste,Non contattato
+udine,Friuli-Venezia Giulia,Udine,Non contattato
+frosinone,Lazio,Frosinone,Non contattato
+latina,Lazio,Latina,Non contattato
+rieti,Lazio,Rieti,Non contattato
+roma,Lazio,Roma,Non contattato
+viterbo,Lazio,Viterbo,Non contattato
+genova,Liguria,Genova,Non contattato
+imperia,Liguria,Imperia,Non contattato
+la_spezia,Liguria,La Spezia,Non contattato
+savona,Liguria,Savona,Non contattato
+bergamo,Lombardia,Bergamo,Non contattato
+brescia,Lombardia,Brescia,Non contattato
+como,Lombardia,Como,Non contattato
+cremona,Lombardia,Cremona,Non contattato
+lecco,Lombardia,Lecco,Non contattato
+lodi,Lombardia,Lodi,Non contattato
+mantova,Lombardia,Mantova,Non contattato
+milano,Lombardia,Milano,Non contattato
+monza_e_brianza,Lombardia,Monza e Brianza,Non contattato
+pavia,Lombardia,Pavia,Non contattato
+sondrio,Lombardia,Sondrio,Non contattato
+varese,Lombardia,Varese,Non contattato
+ancona,Marche,Ancona,Non contattato
+ascoli_piceno,Marche,Ascoli Piceno,Non contattato
+fermo,Marche,Fermo,Non contattato
+macerata,Marche,Macerata,Non contattato
+pesaro_urbino,Marche,Pesaro-Urbino,Non contattato
+campobasso,Molise,Campobasso,Non contattato
+isernia,Molise,Isernia,Non contattato
+alessandria,Piemonte,Alessandria,Non contattato
+asti,Piemonte,Asti,Non contattato
+biella,Piemonte,Biella,Non contattato
+cuneo,Piemonte,Cuneo,Non contattato
+novara,Piemonte,Novara,Non contattato
+torino,Piemonte,Torino,Non contattato
+verbania,Piemonte,Verbania,Non contattato
+vercelli,Piemonte,Vercelli,Non contattato
+bari,Puglia,Bari,Non contattato
+barletta_andria_trani,Puglia,Barletta-Andria-Trani,Non contattato
+brindisi,Puglia,Brindisi,Non contattato
+foggia,Puglia,Foggia,Non contattato
+lecce,Puglia,Lecce,Non contattato
+taranto,Puglia,Taranto,Non contattato
+san_marino,San Marino,San Marino,Non contattato
+cagliari,Sardegna,Cagliari,Non contattato
+carbonia_iglesias,Sardegna,Carbonia-Iglesias,Non contattato
+medio_campidano,Sardegna,Medio Campidano,Non contattato
+nuoro,Sardegna,Nuoro,Non contattato
+ogliastra,Sardegna,Ogliastra,Non contattato
+olbia_tempio,Sardegna,Olbia-Tempio,Non contattato
+oristano,Sardegna,Oristano,Non contattato
+sassari,Sardegna,Sassari,Non contattato
+agrigento,Sicilia,Agrigento,Non contattato
+caltanissetta,Sicilia,Caltanissetta,Non contattato
+catania,Sicilia,Catania,Non contattato
+enna,Sicilia,Enna,Non contattato
+messina,Sicilia,Messina,Non contattato
+palermo,Sicilia,Palermo,Non contattato
+ragusa,Sicilia,Ragusa,Non contattato
+siracusa,Sicilia,Siracusa,Non contattato
+trapani,Sicilia,Trapani,Non contattato
+arezzo,Toscana,Arezzo,Non contattato
+firenze,Toscana,Firenze,Non contattato
+grosseto,Toscana,Grosseto,Non contattato
+livorno,Toscana,Livorno,Non contattato
+lucca,Toscana,Lucca,Non contattato
+massa_carrara,Toscana,Massa-Carrara,Non contattato
+pisa,Toscana,Pisa,Non contattato
+pistoia,Toscana,Pistoia,Non contattato
+prato,Toscana,Prato,Non contattato
+siena,Toscana,Siena,Non contattato
+bolzano,Trentino-Alto Adige,Bolzano,Non contattato
+trento,Trentino-Alto Adige,Trento,Non contattato
+perugia,Umbria,Perugia,Non contattato
+terni,Umbria,Terni,Non contattato
+aosta,Valle d'Aosta,Aosta,Non contattato
+belluno,Veneto,Belluno,Non contattato
+padova,Veneto,Padova,Non contattato
+rovigo,Veneto,Rovigo,Non contattato
+treviso,Veneto,Treviso,Non contattato
+venezia,Veneto,Venezia,Non contattato
+verona,Veneto,Verona,Non contattato
+vicenza,Veneto,Vicenza,Non contattato
