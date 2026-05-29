@@ -46,7 +46,11 @@
 
   <div id="tooltip" role="tooltip"></div>
 
-  <script src="config.js"></script>
+  <script>
+  const configScript = document.createElement("script");
+  configScript.src = "config.js?cacheBust=" + Date.now();
+  document.head.appendChild(configScript);
+</script>
   <script src="script.js"></script>
 </body>
 </html>
