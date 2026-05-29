@@ -7,7 +7,7 @@ const STATUSES = [
   { name: "Montaggio in corso", color: "#9B5DE5" },
   { name: "Lavorazione ultimata", color: "#2D6A4F" },
   { name: "Non interessato", color: "#D62828" },
-  { name: "In attesa di contatti", color: "#F4A6A6" }
+  { name: "In attesa dei contatti", color: "#F4A6A6" }
 ];
 
 const COLOR_BY_STATUS = Object.fromEntries(STATUSES.map(s => [s.name, s.color]));
