@@ -1,7 +1,7 @@
 const STATUSES = [
   { name: "Non interessato", color: "#D62828" },
   { name: "In attesa dei contatti", color: "#D9D9D9" },
-  { name: "Non contattato", color: "#F4A6A6" },
+  { name: "Contatti ricevuti", color: "#F4A6A6" },
   { name: "Prima call fissata", color: "#8ECAE6" },
   { name: "Confronto in corso", color: "#FFD166" },
   { name: "Produzione fissata", color: "#F77F00" },
