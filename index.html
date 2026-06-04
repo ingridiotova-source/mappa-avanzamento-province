@@ -45,9 +45,9 @@
     <div id="message" class="message"></div>
 
 <div class="map-toolbar">
-  <button id="zoomOutBtn" type="button">−</button>
-  <button id="zoomResetBtn" type="button">100%</button>
-  <button id="zoomInBtn" type="button">+</button>
+  <button id="zoomOutBtn" type="button" onclick="changeMapZoom(-0.1)">−</button>
+  <button id="zoomResetBtn" type="button" onclick="resetMapZoom()">100%</button>
+  <button id="zoomInBtn" type="button" onclick="changeMapZoom(0.1)">+</button>
 </div>
 
 <div id="map-container" aria-label="Mappa Italia"></div>
