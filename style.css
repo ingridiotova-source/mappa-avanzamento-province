@@ -189,8 +189,102 @@ main {
   line-height: 1.35;
 }
 
+@media (min-width: 781px) and (max-width: 1200px) {
+  #map-container {
+    height: 76vh;
+  }
+
+  #map-container svg {
+    width: 1150px;
+  }
+}
+
 @media (max-width: 780px) {
-  .app-header { align-items: flex-start; flex-direction: column; }
-  .last-updated { margin-left: 0; width: 100%; }
-  main, .app-header, .controls, .summary, .legend { padding-left: 18px; padding-right: 18px; }
+  .app-header { 
+    align-items: flex-start; 
+    flex-direction: column; 
+  }
+
+  .last-updated { 
+    margin-left: 0; 
+    width: 100%; 
+  }
+
+  main, 
+  .app-header, 
+  .controls, 
+  .summary, 
+  .legend { 
+    padding-left: 18px; 
+    padding-right: 18px; 
+  }
+
+  #map-container {
+    height: 72vh;
+    padding: 12px;
+  }
+
+  #map-container svg {
+    width: 1000px;
+  }
+}
+@media print {
+  body {
+    background: #ffffff;
+  }
+
+  /* Nascondo solo elementi non utili in stampa */
+  .map-toolbar,
+  .message,
+  #tooltip {
+    display: none !important;
+  }
+
+  /* Mantengo header, riepilogo e legenda */
+  .app-header,
+  .controls,
+  .summary,
+  .legend {
+    display: flex !important;
+  }
+
+  main {
+    padding: 0 !important;
+  }
+
+  /*
+    La mappa deve iniziare su una nuova pagina,
+    dopo riepilogo e legenda.
+  */
+  #map-container {
+    page-break-before: always;
+    break-before: page;
+
+    height: auto !important;
+    overflow: visible !important;
+
+    border: 1px solid #d1d5db !important;
+    border-radius: 8px !important;
+    padding: 6mm !important;
+    background: #ffffff !important;
+  }
+
+  /*
+    In stampa la mappa non deve usare i 1300px dello schermo.
+    Deve adattarsi alla pagina.
+  */
+  #map-container svg {
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 235mm !important;
+
+    display: block !important;
+    margin: 0 auto !important;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 8mm;
+  }
 }
