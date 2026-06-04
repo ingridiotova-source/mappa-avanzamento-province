@@ -51,8 +51,9 @@ async function loadSvg() {
   if (!response.ok) throw new Error("SVG non caricato");
   const svgText = await response.text();
   document.getElementById("map-container").innerHTML = svgText;
-}
 
+  applyMapZoom();
+}
 async function loadCsv() {
   const url = getCsvUrl();
   const response = await fetch(addCacheBuster(url), { cache: "no-store" });
@@ -195,5 +196,55 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 }
+let mapZoom = 1;
 
+function getBaseMapWidth() {
+  if (window.innerWidth <= 780) {
+    return 1000;
+  }
+
+  if (window.innerWidth <= 1200) {
+    return 1150;
+  }
+
+  return 1300;
+}
+
+function changeMapZoom(step) {
+  mapZoom = Math.max(0.45, Math.min(2.2, mapZoom + step));
+  applyMapZoom();
+}
+
+function resetMapZoom() {
+  mapZoom = 1;
+  applyMapZoom();
+}
+
+function applyMapZoom() {
+  const svg = document.querySelector("#map-container svg");
+  const zoomResetBtn = document.getElementById("zoomResetBtn");
+
+  if (!svg) {
+    return;
+  }
+
+  const baseWidth = getBaseMapWidth();
+  const newWidth = baseWidth * mapZoom;
+
+  svg.style.width = newWidth + "px";
+  svg.style.maxWidth = "none";
+  svg.style.height = "auto";
+
+  if (zoomResetBtn) {
+    zoomResetBtn.textContent = Math.round(mapZoom * 100) + "%";
+  }
+}
+
+window.changeMapZoom = changeMapZoom;
+window.resetMapZoom = resetMapZoom;
+window.applyMapZoom = applyMapZoom;
+
+window.addEventListener("resize", function () {
+  applyMapZoom();
+});
 init();
