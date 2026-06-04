@@ -130,19 +130,33 @@ main {
   margin-bottom: 12px;
 }
 
+.map-toolbar {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.map-toolbar button {
+  min-width: 46px;
+  padding: 8px 10px;
+}
+
 #map-container {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 18px;
   overflow: auto;
-  min-height: 70vh;
+  height: 78vh;
 }
 
 #map-container svg {
-  width: 100%;
+  width: 1300px;
+  max-width: none;
   height: auto;
-  max-height: 82vh;
+  display: block;
+  margin: 0 auto;
 }
 
 #map-container svg .area-shape {
