@@ -7,7 +7,7 @@ const STATUSES = [
   { name: "Confronto in corso", color: "#F77F00" },
   { name: "Produzione fissata", color: "#FFD166" },
   { name: "Produzione conclusa", color: "#afde8a" },
-  { name: "Montaggio/Modifiche in corso", color: "#90BE6D" },
+  { name: "Montaggio-Modifiche in corso", color: "#90BE6D" },
   { name: "Lavorazione ultimata", color: "#2D6A4F" },
 ];
 
