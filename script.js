@@ -4,10 +4,10 @@ const STATUSES = [
   { name: "Contatti ricevuti", color: "#F4A6A6" },
   { name: "Richiamare", color: "#b94d6d" },
   { name: "Prima call fissata", color: "#8ECAE6" },
-  { name: "Confronto in corso", color: "#FFD166" },
-  { name: "Produzione fissata", color: "#F77F00" },
+  { name: "Confronto in corso", color: "#F77F00" },
+  { name: "Produzione fissata", color: "#FFD166" },
   { name: "Produzione conclusa", color: "#afde8a" },
-  { name: "Montaggio in corso", color: "#90BE6D" },
+  { name: "Montaggio/Modifiche in corso", color: "#90BE6D" },
   { name: "Lavorazione ultimata", color: "#2D6A4F" },
 ];
 
