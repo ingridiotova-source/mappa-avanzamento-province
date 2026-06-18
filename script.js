@@ -6,8 +6,8 @@ const STATUSES = [
   { name: "Prima call fissata", color: "#8ECAE6" },
   { name: "Confronto in corso", color: "#FFD166" },
   { name: "Produzione fissata", color: "#F77F00" },
-  { name: "Produzione conclusa", color: "#90BE6D" },
-  { name: "Montaggio in corso", color: "#9B5DE5" },
+  { name: "Produzione conclusa", color: "#afde8a" },
+  { name: "Montaggio in corso", color: "#90BE6D" },
   { name: "Lavorazione ultimata", color: "#2D6A4F" },
 ];
 
